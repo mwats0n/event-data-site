@@ -1,4 +1,6 @@
 # Event Data Site
 
-http://eventdata.crossref.org
+See: http://staging.eventdata.crossref.org
+
+Staging: http://eventdata.crossref.org
 
