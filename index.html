@@ -131,37 +131,19 @@
         <p>For more comprehensive technical documentation though, we have prepared a preliminary <a href="http://eventdata.crosssref.org/guide/#quick-start">Crossref Event Data Technical User Guide</a> with specifications to help provide you with an overview. Please note that specifications and documentation will continue to evolve as we progress through the technical development of this new service throughout 2016. </p>
 
         <p>Please do get in touch if you have any questions or feedback as we continue to build the service.</p>
-
-
-
-
       </div>
-
-
-
     </div>
 
-    <script>
-    $(document).ready(function () {
-      $.cookieCuttr({
-    cookieDeclineButton: true
-    });
-    });      
-
-    if (jQuery.cookie('cc_cookie_decline') == "cc_cookie_decline") {
-    // do nothing 
-    } else {
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-11065739-12']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document. getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-    }
-    </script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-11065739-12']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
 
   </body>
 </html>
